@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: grey;
+}
+
+/* Typography */
+
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: hsl(233, 12%, 13%);
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: hsl(233, 12%, 13%);
+}
+
+h3{
+ color: hsl(233, 12%, 13%);
+ font-weight: 500;
+}
+p{
+    color: gray;
+    margin-block: 2rem;
+    width: 80%;
+}
+
+/* Header and navBar */
+header{
+    padding: 1.5rem 5rem;
+}
+
+
+.nav-list{
+    padding: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-list-item{
+    display: flex;
+    align-self: center;
+}
+
+.header-logo{
+    margin: auto auto auto 0;
+}
+
+.header-btn{
+    margin-left: auto;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+span{
+    align-self: flex-start;
+}
+
+.testimonials-list-item-name{
+    display: inline-block;
+    margin: 0.5rem auto;
+    color: hsl(233, 12%, 13%);
+    font-weight: 500;
+}
+
+
+/* IMAGES */
+
+.avatar{
+    width: 150px;
+    height: 150px;
+}
+/* LAYOUT */
+
+.section-container {
+    padding: 1.5rem 5rem;
+    display: flex;
+}
+
+.section-container > section{
+    width: 50%;
+}
+
+.features-container{
+    padding-top: 1rem;
+    display: flex;
+}
+
+.features-container-info{
+    width: 85%;
+    margin-left: auto;
+}
+
+.testimonials{
+    padding-block: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.testimonials-list{
+    padding-block: 2rem;
+    display: flex;
+}
+
+.testimonials-list-item{
+    /* width: 32%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conclusion{
+    padding: 1.5rem 5.5rem ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conclusion p{
+    font-size: 2rem;
+    font-weight: 500;
+    width: 45%;
+}
+footer{
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+}
+
+.footer-brands{
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.news-letter{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* buttons */
+.btn {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    border-radius: 25px;
+    border: none;
+}
+
+/* colors and background colors */
+.color-bright-red {
+    color: hsl(12, 88%, 59%);
+    font-weight: 500;
+}
+
+.bg-color-bright-red{
+    background-color: hsl(12, 88%, 59%);
+}
+
+.color-white{
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.bg-color-black{
+    background-color: #000;
+}
+
+.bg-color-light-gray{
+   background-color: hsl(0, 0%, 98%); 
+}
+.color-black{
+    color: #000;
+}
+.bg-color-white{
+    background-color: whitesmoke;
+}
+
+/* Input fields */
+
+.input-field{
+    color: grey;
+    padding: 1rem 1.5rem;
+    border-radius: 25px;
+    border: none;
+}
+
+
+
